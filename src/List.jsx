@@ -5,6 +5,7 @@ function List(props) {
     const category = props.category;
     const itemList = props.items;
     const number = props.number;
+    const color = props.color;
 
     // fruits.sort((a, b) => a.name.localeCompare(b.name));
 // fruits.sort((a,b)=>b.calories-a.calories)
@@ -12,7 +13,7 @@ function List(props) {
     
     const listItems = itemList.map(item => <li key={item.id}>
         {item.name}: &nbsp;
-        <b>{item.age}</b></li>);
+        <b>{item.age}{item.weight}</b> &nbsp;{color}</li>);
     return (
         <>
          
