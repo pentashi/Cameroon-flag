@@ -11,7 +11,7 @@ import UseEffect from './UseEffect'
 import ComponentA from './ComponentA'
 import Stopwatch from './Stopwatch'
 import UseRef  from './UseRef'
-import Flag from './flag'
+import Flag from './Flag'
 function App() {
 
 //   const Students = [
