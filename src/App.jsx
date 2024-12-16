@@ -1,5 +1,17 @@
-
-import Counter from "./Counter"
+// import MyComponent from "./MyComponent"
+//  import Counter from "./Counter"
+// import Developers from "./Developers"
+// import ColorPicker from "./ColorPicker"
+// import Color from "./Color"
+// import MyComponent  from "./Other"
+import DigitalClock from './DigitalClock'
+import Other from './Other'
+import ToDoList from './ToDoList'
+import UseEffect from './UseEffect'
+import ComponentA from './ComponentA'
+import Stopwatch from './Stopwatch'
+import UseRef  from './UseRef'
+import Flag from './flag'
 function App() {
 
 //   const Students = [
@@ -64,14 +76,22 @@ function App() {
 //       id: 10, name: "brocolli", calories: 23
 //     }
   //   ];
-  const names = [
+//   const names = [
     
-"achapi","pentashi","zana"
-  ]
+// "achapi","pentashi","zana"
+//   ]
   return (
-     <>
+    <>
+      {/* <ToDoList/> */}
+    {/* <ComponentA/> */}
+{/* 
+      <Stopwatch/>
+      <Stopwatch/>
+      <Stopwatch/> */}
+      {/* <DigitalClock /> */}
 
-    <Counter/>
+
+      <Flag/>
     </>
   )
  
